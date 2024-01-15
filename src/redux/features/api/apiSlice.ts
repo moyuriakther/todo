@@ -5,7 +5,7 @@ import { addTodo, updateTodo } from "../todo/todoSlice";
 export const apiSlice = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:5000",
+    baseUrl: "https://todo-z7ka.onrender.com",
   }),
   tagTypes: ["Tasks"],
   endpoints: (builder) => ({
